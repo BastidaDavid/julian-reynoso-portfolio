@@ -1,7 +1,7 @@
 import type { Language } from "./types";
 
 export const STORAGE_KEYS = {
-  lang: "julian-reynoso-portfolio-lang",
+  lang: "julian-reynoso-portfolio-lang-v2",
   theme: "julian-reynoso-portfolio-theme-v2",
 } as const;
 

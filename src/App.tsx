@@ -68,7 +68,7 @@ function resolveAssetUrl(url: string) {
 }
 
 export default function App() {
-  const [lang, setLang] = useState<Language>(() => (localStorage.getItem(STORAGE_KEYS.lang) as Language) || "es");
+  const [lang, setLang] = useState<Language>(() => (localStorage.getItem(STORAGE_KEYS.lang) as Language) || "en");
   const [theme, setTheme] = useState<Theme>(() => (localStorage.getItem(STORAGE_KEYS.theme) as Theme) || "dark");
   const [session, setSession] = useState<Session | null>(null);
   const [projects, setProjects] = useState<Project[]>(seedProjects);
